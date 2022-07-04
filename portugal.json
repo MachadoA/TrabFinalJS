@@ -1,0 +1,91 @@
+[
+    {
+        "id": 0,
+        "image": "Braga.jpg",
+        "subtitle": "Braga sempre florida no verão...",
+        "region": "Norte",
+        "local": "Braga",
+        "comeback": true   
+    },
+    {
+        "id": 1,
+        "image": "porto5.jpg",
+        "subtitle": "Nossa primeira viagem a Porto. Vista da Torre dos Clérigos",
+        "region": "Norte",
+        "local": "Porto",
+        "comeback": true
+    },
+    {
+        "id": 2,
+        "image": "guimaraes2.jpg",
+        "subtitle": "Castelo de Bragança. Viagem feita em 2019.",
+        "region": "Norte",
+        "local": "Bragança",
+        "comeback": false
+    },
+    {
+        "id": 3,
+        "image": "vianaDoCastelo.jpg",
+        "subtitle": "Em 2021, foto tirada dentro do navio Gil Eannes.",
+        "region": "Norte",
+        "local": "Viana do Castelo",
+        "comeback": false
+    },
+    {
+        "id": 7,
+        "image": "fatima2.jpg",
+        "subtitle": "Ainda não exploramos o distrito de Santarém. Nossas duas paradas foram em Fátima e em Constância.",
+        "region": "alisboa",
+        "local": "Fátima",
+        "comeback": false 
+    },
+    {
+        "id": 8,
+        "image": "constancia.jpg",
+        "subtitle": "Sem dúvida, um dos melhores passeios! Espetacular para todos.",
+        "region": "alisboa",
+        "local": "Constância",
+        "comeback": true    
+    },
+    {
+        "id": 9,
+        "image": "lagoaDeAlbufeira.jpg",
+        "subtitle": "Lagoa de Albufeira. A preferiada dos amigos. Particularmente, prefiro a de Óbidos. Mas vale a pena o passeio por causa da companhia...",
+        "region": "alisboa",
+        "local": "Lagoa de Albufeira",
+        "comeback": true
+    },
+    {
+        "id": 10,
+        "image": "PraiadaArrabida.jpg",
+        "subtitle": "A praia da Arrábida é linda e localiza-se do outro lado do Tejo, no distrito de Setúbal. ",
+        "region": "alisboa",
+        "local": "Praia da Arrábida",
+        "comeback": false
+    },
+    {
+        "id": 11,
+        "image": "belem.jpg",
+        "subtitle": "Padrão dos Descobrimentos. A região é nosso point de pedalar nos fins de semana.",
+        "region": "lisboa",
+        "local": "Belém",
+        "comeback": true 
+    },
+    {
+        "id": 12,
+        "image": "santoAmaroOeiras.jpg",
+        "subtitle": "Praia de Santo Amaro de Oeiras. Mais conhecida pelas crianças como a praia do brinquedão. Oeiras é o nosso grande amor. Amamos todas as praias, o centro histórico, a proximidade com Lisboa...",
+        "region": "lisboa",
+        "local": "Oeiras",
+        "comeback": true 
+    },
+    {
+        "id": 13,
+        "image": "cascais.jpg",
+        "subtitle": "Cascais é uma paixonite. Há lugares maravilhosos como o parque Marechal Carmona, a Boca do Inferno, o Cassino, o próprio centrinho de Cascais, além de existem muitas praias. Entretanto, ainda prefiro Oeiras.",
+        "region": "lisboa",
+        "local": "Cascais",
+        "comeback": true 
+    }
+    
+]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por onde andei</title>
+    <link rel="shortcut icon" href="img/mundo-favicon32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="desktop-header">
+            <header>
+                <a href="index.html"><img src="img/logo.jpeg" alt="logo Por onde andei"></a>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="#norte">Norte</a></li>
+                    <li><a href="#ALisboa">Arredores de Lisboa</a></li>
+                    <li><a href="#Lisboa">Lisboa</a></li>
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="mobile-header">
+            <header>
+                <a href="index.html"><img src="img/logo_menor.png" alt="logo Por onde andei"></a>
+            
+                <ul>
+                    <li><a href="#norte">Norte</a></li>
+                    <li><a href="#ALisboa">Arredores de Lisboa</a></li>
+                    <li><a href="#Lisboa">Lisboa</a></li>
+                </ul>
+
+            </header>
+            
+        </div>
+        
+        <div class="filters">
+            <label for="comeback">Retornaria</label>
+            <input type="checkbox"  id="comeback"> <br>
+            <label for="notComeback">Ainda não retornaria</label>
+            <input type="checkbox"  id="notComeback">
+            
+            
+            <button type="button" id="addData" class="
+            btnAddData">Acrescentar dados</button>
+        </div>
+        
+        <div class="getFilters" id="getFilters">
+            <section class="images">
+                <!-- <div class="principal" id="principalFilter">
+                    <img src="https://via.placeholder.com/500x282" alt="">
+                </div> -->
+                
+                <div class="view" id="view">
+                </div>
+            </section>
+        </div>
+        
+        <section id="showUp">
+            <h3>Acrescentar novos lugares</h3>
+            
+            <form autocomplete="off" id="addEditForm">
+                <div>
+                    <label for="region">Escolha a região:</label><br>
+                    <select id="region" name="region">
+                        <option value="Norte" id="Norte"> ===== Norte ====</option>
+                        <option value="alisboa" id="aLisboa">===== Arredores de Lisboa =====</option>
+                        <option value="lisboa" id="lisboa">===== Lisboa =====</option>                
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="local">Local:</label><br>
+                    <input type="text" id="local">
+                </div>
+                
+                <div>
+                    <label for="image">Imagem representativa:</label><br>
+                    <input type="text" id="image" placeholder="exemplo.jpg">
+                </div>
+                
+                <div>
+                    <label for="comeback">Retornaria?</label><br>
+                    <input type="checkbox" id="comeback">
+                </div>
+                
+                <div>
+                    <button id="submitBtn" class="submitBtn">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+        
+        
+        <div class="info">
+            <div class="content" id="norte">
+                <section>
+                    <h1>Norte</h1>
+                    <div class="principal" id="principalN">
+                        <img src="https://via.placeholder.com/500x282" alt="">
+                    </div>
+            
+                    <div class="view" id="viewN">
+                    </div>
+            
+                </section>
+            
+                <section class="description" >
+                    <aside id="dynamicN" class="dynamic">
+                        <!-- API temperatura-->
+                    </aside>
+
+                    <div id="descriptionN">
+                    </div>
+            
+                </section>
+
+            </div>
+            <a href="index.html">Voltar ao início</a>
+        </div>
+        
+        <div class="info">
+            <div class="content" id="ALisboa">
+                <section >
+                    <h1>Arredores de Lisboa</h1>
+                    <div class="principal" id="principalALisb">
+                    </div>
+            
+                    <div class="view" id="viewALisb">
+                    </div>
+            
+                </section>
+            
+                <section class="description">
+                    <aside id="dynamicALisbon">
+                    </aside>
+
+                    <div id="descriptionALisbon">
+                    </div>
+                </section>
+            </div>
+            <a href="index.html">Voltar ao início</a>
+        </div>
+        
+        <div class="info"  >
+            <div class="content" id="Lisboa">
+                <section >
+                    <h1>Lisboa</h1>
+                    <div class="principal" id="principalLisbon">
+                    </div>
+                    <div class="view" id="viewLisbon">
+                    </div>
+                </section>
+            
+                <section class="description">
+                    <aside id="dynamicLisbon">
+                    </aside>
+                    <div id="descriptionLisbon">
+                    </div>
+                </section>
+            </div>
+            <a href="index.html">Voltar ao início</a>
+        </div>
+        
+        
+        <script src="index.js" type="module"></script>
+        
+    </div>
+</body>
+</html>
