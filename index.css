@@ -144,10 +144,11 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 5px;
+    padding-left: 10px;
 }
 
 .view p{
-    text-align: left;
+    text-align: center;
     font-size: 0.750em;
 }
 
