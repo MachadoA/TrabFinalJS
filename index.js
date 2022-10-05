@@ -162,7 +162,7 @@ function apresentaDados(dados) {
                     
                         <p>Temos um caso com Cascais, sobretudo com as praias, o centro histórico, o mercado municipal e o Parque Marechal Carmona.</p>
                     
-                        <p>Apesar das minhas preferências, escolhemos Sintra para morar. Estamos em fase de descoberta, mas sim, já temos alguns lugares favoritos como os jardins do Palácio de Queluz, o parque Urbano Felício Loureiro, o centro histórico de Sintra, o Parque de Monserrate. Curiosamente, ainda não fomos a nenhuma praia da região. Como vivemos mais próximos à Oeiras, preferimos essas praias.</p>
+                        <p>Em Sintra, nossos lugares favoritos são os jardins do Palácio de Queluz, o parque Urbano Felício Loureiro, o centro histórico de Sintra, o Parque de Monserrate. Curiosamente, ainda não fomos a nenhuma praia da região. Como vivemos mais próximos à Oeiras, preferimos essas praias.</p>
                     
                     </p>
         `
