@@ -1,7 +1,6 @@
 import { port, updateDados, returnTravel, notReturnTravel } from "./utils.js";
 
 /////// DOM ///////
-//#region DECLARAÇÕES DO DOM
 let norte = document.getElementById("norte");
 let aLisboa = document.getElementById("aLisboa");
 let lisboa = document.getElementById("lisboa");
@@ -35,12 +34,7 @@ let dadosGlobais;
 let submitBtn = document.querySelector('#submitBtn');
 let grid = document.querySelector('#grid');
 
-//#endregion
-
-
-
 ////////// EVENTOS ///////////
-//#region EVENTOS
 function eventos() {
     filters.addEventListener('change', filtros, false);
     filters.addEventListener('input', filtros, false);
@@ -50,21 +44,14 @@ function eventos() {
     addData.addEventListener('click', formView, false);
 }
 submitBtn.addEventListener('click', formEvents, false)
-//#endregion
-
 
 ////////// FETCH  JSON////////
-//#region FETCH JSON
 fetch('portugal.json')
 .then(resp => resp.json())
 .then(dadosConvertidos => apresentaDados(dadosConvertidos))
 .catch(erro => console.log(erro))
-//#endregion
-
-
 
 /////////// FUNCTIONS ////////
-//#region "FUNCIONS"
 function apresentaDados(dados) {
     dadosGlobais = dados;
     
@@ -254,8 +241,6 @@ function filtros({target}){
         getFilters.style.visibility = "hidden";
     }
 }
-//#endregion
-
 
 ////// acrescentar dados ////
 
