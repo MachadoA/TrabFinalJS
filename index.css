@@ -317,3 +317,13 @@ input {
     
 }
 }
+
+/* JS */
+
+.description-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
