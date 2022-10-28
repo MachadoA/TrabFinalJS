@@ -66,10 +66,10 @@ function apresentaDados(dados) {
         norte.forEach((item) => { 
             
             viewN.innerHTML += `
-            <div>
+            <article class="description-image">
             <img name="Norte" id="${item.id}" src="img/${item.image}">
             <p>${item.local}</p>
-            </div>
+            </article>
             `
             
             descriptionN.innerHTML = `
@@ -104,10 +104,10 @@ function apresentaDados(dados) {
         let local = item.local;
         
         viewALisb.innerHTML += `
-        <div>
+        <article class="description-image">
         <img name="ALisboa" src="img/${img}">
         <p>${local}</p>
-        </div>
+        </article>
         `
         
         descriptionALisbon.innerHTML = `
@@ -133,17 +133,17 @@ function apresentaDados(dados) {
         let local = item.local;
         
         viewLisbon.innerHTML += `
-        <div>
+        <article class="description-image">
         <img name="Lisboa" src="img/${img}">
         <p>${local}</p>
-        </div>
+        </article>
         `
 
         descriptionLisbon.innerHTML = `
         <h2>Zona de Lisboa</h2>
                     
                     <p>
-                        Residir na zona de Lisboa para mim é uma dádiva. Não sei se sobreviveria muito tempo a morar em Porto. Gosto da agitação. Amo ver pessoas e apaixonei-me por essa região. Um dos nossos hobbies é andar de bicicleta na zona de Belém, uma local que reúne gente, história, sorriso e beleza. Agradabilíssimo!</p>
+                        De todas as regiões que conheci, Lisboa é a minha favorita. Gosto da agitação. Amo ver pessoas e apaixonei-me por essa região. Um dos nossos hobbies é andar de bicicleta na zona de Belém, uma local que reúne gente, história, sorriso e beleza. Agradabilíssimo!</p>
                     
                         <p>Minha favorita, sem dúvida, é Oeiras. Apesar do centro de Lisboa ser um pouco familiar – consigo sentir os fatores históricos e culturais -, prefiro Oeiras para passear com as crianças. </p>
                     
